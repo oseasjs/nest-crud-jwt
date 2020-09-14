@@ -58,3 +58,4 @@ _Some error message on log are expected when run tests, but they are just log of
 - **Docker Compose**: File with postgres and pgadmin docker image that could be used instead of have both instalations on local environment. Available on root folder project: docker-compose.yml;
 - **Tests**: Tests coverage Service and Repository classes and the implementation is avaliable on __tests__ folder;
 - **Rest Client**: All Http calls are avaliable on _rest-client.rest_ files (**VSCode Rest Client plugins**);
+
