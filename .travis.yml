@@ -2,11 +2,11 @@ language: node_js
 sudo: false # faster builds
 
 node_js:
-- node
-- 'lts/*'
+  - 'node'
+  - '14'
 
 cache: npm
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
-  
+  - ./bin/codecov -e TRAVIS_NODE_VERSION -f coverage/*.json
+  - ./bin/codecov -e TRAVIS_NODE_VERSION
