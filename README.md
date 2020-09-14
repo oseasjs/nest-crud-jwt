@@ -4,6 +4,13 @@ This project was inspired on Ariel Weinberger course available on Udemy: **NestJ
 
 NestJS is a Javascript Framework created by [Kamil Myśliwiec](https://kamilmysliwiec.com) and avaliable on [https://nestjs.com](https://nestjs.com/)
 
+### Build Branches Status
+
+| Branch        | Build         | Coverage  |
+| ------------- |:-------------:| ---------:|
+| Develop       | ![Build](https://github.com/oseasjs/nestjs-crud-jwt/workflows/Build/badge.svg?branch=develop) | [![codecov](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/develop/graph/badge.svg)](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/develop) |
+| Master        | ![Build](https://github.com/oseasjs/nestjs-crud-jwt/workflows/Build/badge.svg?branch=master)  | [![codecov](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/master/graph/badge.svg)](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/master)  |
+
 ## Main Dependencies:
 
 - node
