@@ -8,5 +8,6 @@ node_js:
 cache: npm
 
 after_success:
-  - ./bin/codecov -e TRAVIS_NODE_VERSION -f coverage/*.json
-  - ./bin/codecov -e TRAVIS_NODE_VERSION
+  # - ./bin/codecov -e TRAVIS_NODE_VERSION -f coverage/*.json
+  # - ./bin/codecov -e TRAVIS_NODE_VERSION
+  - bash <(curl -s https://codecov.io/bash)
