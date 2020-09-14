@@ -32,11 +32,11 @@ Authorization: Bearer {{jwtoken}}
 }
 
 ### DELETE by id
-DELETE http://localhost:3000/products/5
+DELETE http://localhost:3000/products/6
 Authorization: Bearer {{jwtoken}}
 
 ### PATCH status or name or description
-PATCH http://localhost:3000/products/1 HTTP/1.1
+PATCH http://localhost:3000/products/6 HTTP/1.1
 content-type: application/json
 Authorization: Bearer {{jwtoken}}
 

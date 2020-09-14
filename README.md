@@ -32,17 +32,18 @@ NestJS is a Javascript Framework created by [Kamil Myśliwiec](https://kamilmysl
 
 ``` yarn test```
 
-* Some error message on log are expected when run tests, but they are just log of expected errors;
+_Some error message on log are expected when run tests, but they are just log of expected business validation message;_
 
 ## Implementation
 
-- **Project structure**: _Following MVC Pattern with: Controller, Service, Repository and Entity, grouped by domain folder. Very similar structure of SpringBoot implementation applications;
+- **Project structure**: Following MVC Pattern with: Controller, Service, Repository and Entity, grouped by domain folder. Very similar structure of SpringBoot implementation applications;
 - **Controler**: Classes used to process request calls (Rest Apis) and ends with suffix: _*.controller.ts_;
 - **Service**: Classes uses to process business logic validations and ends with _*.service.ts_;
 - **Repository**: Classes uses to keep persistence logic of entities and ends with _*.repository.ts_;
-- **Entity**: TypeORM Framework is used to persist entities data in a table on database. Each entity represents a table on database and is being created according **sincronized: true** configuration on _config/typeorm.config.ts_ . All entities classes ends with suffix _*.entity.ts_;
+- **Entity**: TypeORM Framework is used to persist entities data in a table on database. Each entity represents a table on database and is being created according **sincronized: true** configuration on _config/typeorm.config.ts_. All entities classes ends with suffix _*.entity.ts_;
 - **Dependence Injection**: The dependences instances are injected in classes constructors (_Controller, Service_);
 - **Dto**: Classes used to represent a data received or retrived on request calls (request body or response) and ends with suffix _*.dto.ts_ and are grouped on dto sub-folder;
+- **Enums**: Types that represents typed constantes.All custom enums types ends with suffix _*.enum.ts_;
 - **Validation Pipe**: Classes used to validate objects received on requests, end with suffix _*.pipe.ts_ and are grouped on pipes sub-folder;
 - **Postgres**: Database used to persist data. Could be initialized using _docker-compose.yml_ file available on root project folder;
 - **Promise**: Type used for Assyncronous processing. Used on methods retrieves objects. Used on Service and Repository classes;
