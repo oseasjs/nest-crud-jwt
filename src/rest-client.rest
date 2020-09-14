@@ -1,0 +1,77 @@
+
+### GET ALL
+GET http://localhost:3000/products
+Authorization: Bearer {{jwtoken}}
+
+### GET by Status
+GET http://localhost:3000/products?status=AVAILABLE
+Authorization: Bearer {{jwtoken}}
+
+### GET by Search
+GET http://localhost:3000/products?search=1
+Authorization: Bearer {{jwtoken}}
+
+### GET by Status and Search
+GET http://localhost:3000/products?status=IN_TRANSIT&search=2
+Authorization: Bearer {{jwtoken}}
+
+### GET by Id
+GET http://localhost:3000/products/5
+Authorization: Bearer {{jwtoken}}
+
+
+### POST
+POST http://localhost:3000/products HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwtoken}}
+
+{
+    "name": "Product Name 3",
+    "description": "Description of Product 3",
+    "categoryId": 1
+}
+
+### DELETE by id
+DELETE http://localhost:3000/products/5
+Authorization: Bearer {{jwtoken}}
+
+### PATCH status or name or description
+PATCH http://localhost:3000/products/1 HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwtoken}}
+
+{
+    "status": "IN_TRANSIT"
+}
+
+
+### POST signup 
+POST http://localhost:3000/auth/signup HTTP/1.1
+content-type: application/json
+
+{
+    "username": "oseas2",
+    "password": "Oseas22#"
+}
+
+### POST signin
+# @name login
+POST http://localhost:3000/auth/signin HTTP/1.1
+content-type: application/json
+
+{
+    "username": "oseas",
+    "password": "Oseas11#"
+}
+
+###
+@jwtoken = {{login.response.body.accessToken}}
+
+### POST test JWT
+POST http://localhost:3000/auth/test HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwtoken}}
+
+{
+    
+}
