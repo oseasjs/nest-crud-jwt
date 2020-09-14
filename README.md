@@ -8,8 +8,10 @@ NestJS is a Javascript Framework created by [Kamil Myśliwiec](https://kamilmysl
 
 | Branch        | Build         | Coverage  |
 | ------------- |:-------------:| ---------:|
-| Develop       | ![Build](https://github.com/oseasjs/nestjs-crud-jwt/workflows/Build/badge.svg?branch=develop) | [![codecov](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/develop/graph/badge.svg)](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/develop) |
-| Master        | ![Build](https://github.com/oseasjs/nestjs-crud-jwt/workflows/Build/badge.svg?branch=master)  | [![codecov](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/master/graph/badge.svg)](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/master)  |
+| Develop       | ![Build](https://github.com/oseasjs/nest-crud-jwt/workflows/Build/badge.svg?branch=develop) | [![codecov](https://codecov.io/gh/oseasjs/nest-crud-jwt/branch/develop/graph/badge.svg)](https://codecov.io/gh/oseasjs/nest-crud-jwt/branch/develop) |
+| Master        | ![Build](https://github.com/oseasjs/nest-crud-jwt/workflows/Build/badge.svg?branch=master)  | [![codecov](https://codecov.io/gh/oseasjs/nest-crud-jwt/branch/master/graph/badge.svg)](https://codecov.io/gh/oseasjs/nest-crud-jwt/branch/master)  |
+
+
 
 ## Main Dependencies:
 
