@@ -4,6 +4,13 @@ This project was inspired on Ariel Weinberger course available on Udemy: **NestJ
 
 NestJS is a Javascript Framework created by [Kamil Myśliwiec](https://kamilmysliwiec.com) and avaliable on [https://nestjs.com](https://nestjs.com/)
 
+### Build Branches Status
+
+| Branch        | Build         | Coverage  |
+| ------------- |:-------------:| ---------:|
+| Develop       | ![Build](https://github.com/oseasjs/nestjs-crud-jwt/workflows/Build/badge.svg?branch=develop) | [![codecov](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/develop/graph/badge.svg)](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/develop) |
+| Master        | ![Build](https://github.com/oseasjs/nestjs-crud-jwt/workflows/Build/badge.svg?branch=master)  | [![codecov](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/master/graph/badge.svg)](https://codecov.io/gh/oseasjs/nestjs-crud-jwt/branch/master)  |
+
 ## Main Dependencies:
 
 - node
@@ -58,3 +65,4 @@ _Some error message on log are expected when run tests, but they are just log of
 - **Docker Compose**: File with postgres and pgadmin docker image that could be used instead of have both instalations on local environment. Available on root folder project: docker-compose.yml;
 - **Tests**: Tests coverage Service and Repository classes and the implementation is avaliable on __tests__ folder;
 - **Rest Client**: All Http calls are avaliable on _rest-client.rest_ files (**VSCode Rest Client plugins**);
+
