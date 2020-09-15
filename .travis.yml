@@ -1,13 +1,13 @@
-language: node_js
-sudo: false # faster builds
+# language: node_js
+# sudo: false # faster builds
 
-node_js:
-  - 'node'
-  - '14'
+# node_js:
+#   - 'node'
+#   - '14'
 
-cache: npm
+# cache: npm
 
-after_success:
-  # - ./bin/codecov -e TRAVIS_NODE_VERSION -f coverage/*.json
-  # - ./bin/codecov -e TRAVIS_NODE_VERSION
-  - bash <(curl -s https://codecov.io/bash)
+# after_success:
+#   # - ./bin/codecov -e TRAVIS_NODE_VERSION -f coverage/*.json
+#   # - ./bin/codecov -e TRAVIS_NODE_VERSION
+#   - bash <(curl -s https://codecov.io/bash)
