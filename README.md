@@ -47,8 +47,8 @@ _Some error message on log are expected when run tests, but they are just log of
 
 - **Project structure**: Following common structure of restful microservices with: Controller, Service, Repository and Entity. Very similar structure of SpringBoot services structure;
 - **Controler**: Classes used to process request calls (Rest Apis) and ends with suffix: _*.controller.ts_;
-- **Service**: Classes uses to process business logic validations and ends with _*.service.ts_;
-- **Repository**: Classes uses to keep persistence logic of entities and ends with _*.repository.ts_;
+- **Service**: Classes used to process business logic validations and ends with _*.service.ts_;
+- **Repository**: Classes used to keep persistence logic of entities and ends with _*.repository.ts_;
 - **Entity**: TypeORM Framework is used to persist entities data in a table on database. Each entity represents a table on database and is being created according **sincronized: true** configuration on _config/typeorm.config.ts_. All entities classes ends with suffix _*.entity.ts_;
 - **Dependence Injection**: The dependences instances are injected in classes constructors (_Controller, Service_);
 - **Dto**: Classes used to represent a data received or retrived on request calls (request body or response) and ends with suffix _*.dto.ts_ and are grouped on dto sub-folder;
