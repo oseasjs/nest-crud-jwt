@@ -45,7 +45,7 @@ _Some error message on log are expected when run tests, but they are just log of
 
 ## Implementation
 
-- **Project structure**: Following MVC Pattern with: Controller, Service, Repository and Entity, grouped by domain folder. Very similar structure of SpringBoot implementation applications;
+- **Project structure**: Following common structure of restful microservices with: Controller, Service, Repository and Entity. Very similar structure of SpringBoot services structure;
 - **Controler**: Classes used to process request calls (Rest Apis) and ends with suffix: _*.controller.ts_;
 - **Service**: Classes uses to process business logic validations and ends with _*.service.ts_;
 - **Repository**: Classes uses to keep persistence logic of entities and ends with _*.repository.ts_;
